@@ -44,7 +44,7 @@ namespace MvcMovie.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Movie");
+                    b.ToTable("Movie", (string)null);
                 });
 #pragma warning restore 612, 618
         }
